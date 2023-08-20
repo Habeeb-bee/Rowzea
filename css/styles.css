@@ -225,7 +225,10 @@ a {
   color:black;
 }
 
-@media (max-width:1028px) {
+
+/* ****************** media *************s */
+
+@media (min-width:40rem) {
   .title-img {
     position: static;
     width: 20rem;
@@ -240,3 +243,23 @@ a {
     padding-top:3% ;
   }
 }
+
+
+@media (min-width:60rem) {
+  .title-img {
+    position: static;
+    width: 20rem;
+    }
+    
+  #title{
+    text-align: center;
+  }
+  #title h1{
+    font-size: 2rem;
+    line-height: 1;
+    padding-top:3% ;
+  }
+}
+
+
+
