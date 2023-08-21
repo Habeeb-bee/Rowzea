@@ -26,7 +26,7 @@ a {
       }
       
       #header .logo  {
-        color: rgb(175, 186, 194);
+        color: #fff;
         font-family:'Montserrat Alternates', sans-serif;
       }
       
@@ -226,12 +226,12 @@ a {
 }
 
 
-/* ****************** media *************s */
+/* ****************** media ************* */
 
 @media (min-width:40rem) {
   .title-img {
     position: static;
-    width: 20rem;
+    width: 60vw ;
     }
     
   #title{
