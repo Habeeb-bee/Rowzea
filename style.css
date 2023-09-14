@@ -50,5 +50,62 @@ body {
 
   }
 
+  #features{
+    padding: 7% 10%;
+  }
+
+  .feature-box{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  
+  .feature-box h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .feature-box p{
+    color: rgb(110, 119, 119);
+  }
+   .icon{
+     color:  #37517e;
+     margin-bottom: 1rem;
+   }
+  
+   .icon:hover{
+    color:#283b5c;
+   }
+
+    /* testimonials */
+
+  #testimonials{
+    background:#37517e;
+    text-align: center;
+    padding: 7% 0;
+    color: #fff;
+  }
+
+  #testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1.5rem;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .testimonial-img{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+  }
+
+  .rowzea{
+    font-family:'Montserrat Alternates', sans-serif;
+  }
+
+  .carousel-control-next{
+    margin-right: .5em;
+  }
+  
+
 
   
