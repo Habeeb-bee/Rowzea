@@ -104,5 +104,18 @@ body {
   }
   
 
+  
+  /* press */
+
+  #press{
+    background-color: #37517e23;
+    text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+} 
+
 
   
