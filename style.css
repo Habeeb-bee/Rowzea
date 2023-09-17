@@ -4,6 +4,11 @@ body {
 }
 
 
+a{
+  text-decoration-line: none !important;
+}
+
+
 .navbar{
     width: 100vw;
    
@@ -116,6 +121,97 @@ body {
   width: 15%;
   margin: 20px;
 } 
+
+
+/* pricing */
+
+
+
+.pricing-title {
+  padding: 60px 0;
+}
+
+.pricing-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pricing-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+
+.pricing .buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #47b2e4;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+}
+
+.pricing .buy-btn:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em; }
+
+.container > * {
+  flex-basis: 1 1 100%; }
+
+.flex {
+  padding: 1.5em;
+  text-align: start;
+  width: 30em; }
+
+.flex-item {
+  background-color: #e2e2e2;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.2s; }
+
+.flex-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.596); }
+
+.card-img{
+  display: block;
+  height: 20rem;
+
+  object-fit: cover; }
+
+.card-content {
+  padding: 1rem;
+background-color: #f0f0f0; }
+
+
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem; }
+
 
 
   
