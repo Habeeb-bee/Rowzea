@@ -8,12 +8,21 @@ a{
   text-decoration-line: none !important;
 }
 
+.show {
+  background-color:  #1e2d46c9  ;
+padding: 2em;
+width: 100vw;
+left: 0;
+z-index: 1000;
+transition: all 350ms;
+}
+
 
 .navbar{
     width: 100vw;
-    background-color: #3a3a3a7e;
+   
 
-    a{
+    .navbar-brand{
       color: #fff;
     }
     
