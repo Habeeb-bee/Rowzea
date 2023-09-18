@@ -25,10 +25,19 @@ transition: all 350ms;
     .navbar-brand{
       color: #fff;
     }
+
+   
     
    
   }
   
+  .navbar-toggler{
+    color: #fff !important;
+  }
+
+  .navbar-toggler-icon {
+    color: #fff !important;
+  }
 
   .container {
     display: flex;
