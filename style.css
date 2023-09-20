@@ -4,9 +4,8 @@ body {
 }
 
 
-a{
-  text-decoration-line: none !important;
-}
+
+
 
 .show {
   background-color:  #1e2d46c9  ;
@@ -26,18 +25,16 @@ transition: all 350ms;
       color: #fff;
     }
 
-   
-    
+    .navbar-toggler{
+      background-color:#f0f0f0 !important;
+    }
+  
+  
    
   }
   
-  .navbar-toggler{
-    color: #fff !important;
-  }
 
-  .navbar-toggler-icon {
-    color: #fff !important;
-  }
+
 
   .container {
     display: flex;
@@ -241,9 +238,16 @@ background-color: #f0f0f0; }
 
   /* cta */
   #cta  {
+    margin-top: 3em;
     text-align: center;
     padding: 2.5rem;
+    width: 100vw;
     background-color: #37517e;
+
+    .cta-heading{
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+    }
   }
 
   #cta h3{
@@ -251,10 +255,7 @@ background-color: #f0f0f0; }
 
   }
 
-  .cta-heading{
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-  }
+ 
 
   /* footer */
 #footer{
