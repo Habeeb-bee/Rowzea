@@ -278,6 +278,31 @@ background-color: #f0f0f0; }
 
 @media(min-width:40rem){
   
-  
+ #title h2 {
+    text-align: center;
+    padding: 0em 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#title h3 {
+    text-align: center;
+    padding: 0em 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    }
+
+     .title-img{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 4em;
+
+  }
+
+
+
+
 }
   
