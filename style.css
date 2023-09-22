@@ -18,7 +18,7 @@ transition: all 350ms;
 
 
 .navbar{
-    width: 100vw;
+  
    
 
     .navbar-brand{
@@ -26,7 +26,7 @@ transition: all 350ms;
     }
 
     .navbar-toggler{
-      background-color:#f0f0f0 !important;
+      background-color: #f0f0f0 !important;
     }
   
   
@@ -274,4 +274,10 @@ background-color: #f0f0f0; }
 }
 
 
+
+
+@media(min-width:40rem){
+  
+  
+}
   
