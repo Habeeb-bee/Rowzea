@@ -301,6 +301,24 @@ background-color: #f0f0f0; }
 
   }
 
+  
+  /* cta */
+  #cta  {
+
+    .cta-heading{
+      font-size: 2rem;
+      padding-bottom: .3em;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn{
+      margin-right: 1em;
+    
+    }
+  }
+
+
+  
 
 
 
