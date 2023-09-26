@@ -323,4 +323,71 @@ background-color: #f0f0f0; }
 
 
 }
+
+
+
+@media(min-width:60rem){
+
+
+  .nav-link {
+    color: #fff !important;
+  }
+/* 
+  #title{
+
+    .discription{
+      margin-left: auto;
+      display: block;
+      padding-right: 20em;
+    }
+  
+    h2 {
+      text-align: center;
+      padding: 0em 1em;
+      font-size: 2em;
+      font-weight: 500;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 0em 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    }
+
+  }   
+
+ 
+ 
+      .title-img{
+     width: 50vw;
+     height: 50vh;
+     margin-left: 0;
+     margin-right: 0;
+     padding-top: 4em;
+ 
+   }
+ 
+    */
+   /* cta */
+   /* #cta  {
+ 
+     .cta-heading{
+       font-size: 2rem;
+       padding-bottom: .3em;
+       font-family: 'Montserrat', sans-serif;
+     }
+ 
+     .btn{
+       margin-right: 1em;
+     
+     }
+   }
+ 
+  */
+ 
+ 
+ }
+   
+ 
   
