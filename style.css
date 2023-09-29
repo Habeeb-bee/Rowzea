@@ -52,28 +52,56 @@ transition: all 350ms;
 #title{
 
     background: #37517e;
-    padding: 5em 0em 2em 0em;
     color: #fff;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+
+   
+
+    .img-fluid{
+     
+    width: 70vw;
+    padding-bottom: 2em ;
+    
+    }
+
+.btn {
+  margin-top: 2em !important;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  padding: 1;
+  
+}
+    
+.fa-apple {
+  padding: 0 .3em 0 0 ;
 }
 
-#title h2 {
-    text-align: center;
-    padding: 0em 1em;
-    font-size: 1.3em;
-    font-weight: 500;
+.fa-google-play {
+  padding: 0 .3em 0 0 ;
 }
+
+ h2 {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+
+
+
+
+}
+
+
 
 
   
 
-  .title-img{
-    width: 70vw;
-    height: 30vh;
-    margin-left: 2em;
-    padding-top: 4em;
-
-  }
-
+  
   #features{
     padding: 7% 10%;
   }
@@ -277,29 +305,25 @@ background-color: #f0f0f0; }
 
 
 @media(min-width:40rem){
+
+  #title{
+
+    padding-top: 10em;
+    padding-bottom: 15em;
   
- #title h2 {
-    text-align: center;
-    padding: 0em 1em;
-    font-size: 2em;
-    font-weight: 500;
-}
+   
 
-#title h3 {
-    text-align: center;
-    padding: 0em 1em;
-    font-size: 1.5em;
-    font-weight: 500;
-    }
+    .img-fluid{
+     
+      width: 50vw;
+      height: 40vh;
+      padding-bottom: 2em ;
+      
+      }
 
-     .title-img{
-    width: 50vw;
-    height: 50vh;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 4em;
 
   }
+
 
   
   /* cta */
@@ -358,7 +382,7 @@ background-color: #f0f0f0; }
   }   
 
  
- 
+ work on the responsiveness
       .title-img{
      width: 50vw;
      height: 50vh;
