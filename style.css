@@ -308,9 +308,14 @@ background-color: #f0f0f0; }
 
   #title{
 
-    padding-top: 10em;
-    padding-bottom: 15em;
+    height: fit-content;
+    
+    padding-bottom: 5em;
   
+    .container{
+
+      margin-top: 5em;
+    }
    
 
     .img-fluid{
