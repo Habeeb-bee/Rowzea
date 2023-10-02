@@ -90,18 +90,9 @@ transition: all 350ms;
   font-weight: 500;
 }
 
-
-
-
-
 }
 
-
-
-
-  
-
-  
+ 
   #features{
     padding: 7% 10%;
   }
@@ -225,7 +216,7 @@ transition: all 350ms;
   gap: 1em; }
 
 .container > * {
-  flex-basis: 1 1 100%; }
+  flex-basis: 1 1 100% !important; }
 
 .flex {
   padding: 1.5em;
@@ -387,6 +378,36 @@ left: 2em;
 
 
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em; }
+  
+  .container > * {
+    flex-basis: 1 1 100% !important; }
+  
+  .flex {
+    padding: 1.5em;
+    text-align: start;
+    width: 30em; }
+  
+  .flex-item {
+    background-color: #e2e2e2;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.2s; }
+  
+    .card{
+      min-height: 45rem;
+      background-color:
+       #f0f0f0;
+       background-size: contain;
+    }
 
   
  
