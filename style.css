@@ -208,15 +208,7 @@ transition: all 350ms;
 
 
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1em; }
 
-.container > * {
-  flex-basis: 1 1 100% !important; }
 
 .flex {
   padding: 1.5em;
@@ -235,6 +227,9 @@ transition: all 350ms;
   transform: translateY(-3px);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.596); }
 
+  .card{
+    left:0;
+  }
 
 
 .card-content {
@@ -315,6 +310,9 @@ background-color: #f0f0f0; }
 
 
   }
+
+
+ 
 
 
   
