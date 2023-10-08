@@ -167,7 +167,9 @@ transition: all 350ms;
 /* pricing */
 
 
-
+#pricing{
+  text-align: center;
+}
 .pricing-title {
   padding: 60px 0;
 }
@@ -187,37 +189,53 @@ transition: all 350ms;
   color: #37517e;
 }
 
-
-.pricing .buy-btn {
-  display: inline-block;
-  padding: 12px 35px;
-  border-radius: 50px;
-  color: #47b2e4;
-  transition: none;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Jost", sans-serif;
-  transition: 0.3s;
-  border: 1px solid #47b2e4;
-}
-
-.pricing .buy-btn:hover {
-  background: #47b2e4;
-  color: #fff;
-}
-
-
 .card{
-  left: 0;
-  right: 0;
-  width: 20em;
-  background-color: #e2e2e2;
-  border-radius: 0.4rem;
-  overflow: hidden;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: 0.2s;
-}
+ width: 80vw;
+ height: 70vw;
+ margin:0 auto;
+   background-color: #e2e2e2;
+   border-radius: 0.4rem;
+   overflow: hidden;
+   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+   transition: 0.2s;
+ }
+
+ .card-body {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  text-align: start; }
+
+  
+  
+ 
+  .btn-Add {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    background-color: #37517e;
+    color: #cecece;
+    text-decoration: none;
+    transition:  0.5s;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid ;
+  }
+
+  .btn-Add:hover {
+    background: #202f49;
+    color: #fff;
+    padding: 15px 40px;
+  }
+/* 
+.pricing .buy-
+
+.pricing .buy-
+
+
+
 
 
 .flex {
@@ -239,9 +257,7 @@ transition: all 350ms;
 
 
 
-.card-content {
-  padding: 1rem;
-background-color: #f0f0f0; }
+
 
 
 
@@ -249,7 +265,7 @@ background-color: #f0f0f0; }
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   line-height: 1.4;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem; } */
 
 
 
