@@ -222,12 +222,14 @@ transition: all 350ms;
     font-family: "Jost", sans-serif;
     transition: 0.3s;
     border: 1px solid ;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   }
 
   .btn-Add:hover {
     background: #202f49;
     color: #fff;
     padding: 15px 40px;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
   }
 /* 
 .pricing .buy-
@@ -381,19 +383,13 @@ left: 2em;
  }
     
  .btn-dark{
-  margin: 0;
- }
+  margin: 0;}
 
  
- .img-fluid{
-     
+ .img-fluid{    
   width: 35vw;
   height: 60vh;
-  padding-bottom: 2em ;
-  
-  }
-
-
+  padding-bottom: 2em;}
   }
 
   .container {
@@ -405,30 +401,24 @@ left: 2em;
   
   .container > * {
     flex-basis: 1 1 100% !important; }
-  
-  .flex {
-    padding: 1.5em;
-    text-align: start;
-    width: 30em; }
-  
-  .flex-item {
-    background-color: #e2e2e2;
-    border-radius: 0.4rem;
-    overflow: hidden;
-    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: 0.2s; }
- 
 
-    .card-content{
-      min-height: 20rem;
-       
-    }
-
-    .card-img{
-      display: block;
-      min-height: 20rem;
-      object-fit: cover; }
+    .card{
+      max-width: 30vw;
+        max-height: 45em;
+        margin:0 auto;
+        background-color: #e2e2e2;
+        border-radius: 0.4rem;
+        overflow: hidden;
+        box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: 0.2s;
+      }
+     
+      .card-body {
+       background-color: #f0f0f0;
+       text-align: start; } 
+     
+     
 
   
  
